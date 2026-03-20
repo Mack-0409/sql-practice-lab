@@ -67,6 +67,14 @@ WHERE EMP.DEPTNO = DEPT.DEPTNO AND JOB='MANAGER' AND LOC='DALLAS';
 
     II. RIGHT OUTER JOIN - It is used to optain unmatched records from the right table along with matching records from bot the table.
     SYNTAX - 
+      i. ANSI - American National Standard Institute
+        SELECT COLUMN_NAME
+        FROM TABLE_NAME_1 RIGHT JOIN TABLE_NAME_2
+        ON <JOIN CONDITION>;
+      ii. ORACLE
+        SELECT COLUMN_NAME
+        FROM TABLE_NAME_1 , TABLE_NAME_2
+        WHERE TABLE_NAME_1.COLUMN_NAME = TABLE_NAME_2.COLUMN_NAME;
       
     III. FULL OUTER JOIN - 
   
