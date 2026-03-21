@@ -76,7 +76,12 @@ WHERE EMP.DEPTNO = DEPT.DEPTNO AND JOB='MANAGER' AND LOC='DALLAS';
         FROM TABLE_NAME_1 , TABLE_NAME_2
         WHERE TABLE_NAME_1.COLUMN_NAME = TABLE_NAME_2.COLUMN_NAME;
       
-    III. FULL OUTER JOIN - 
+    III. FULL OUTER JOIN - It is used to optain unmatched records from both the tables along with matching records.
+      SYNTAX - 
+          i. ANSI - American National Standard Institute
+            SELECT COLUMN_NAME
+            FROM TABLE_NAME_1 FULL OUTER JOIN TABLE_NAME_2
+            ON <JOIN CONDITION>;
   
 4. NATURAL JOIN
   
