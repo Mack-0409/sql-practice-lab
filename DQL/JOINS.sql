@@ -87,6 +87,9 @@ WHERE EMP.DEPTNO = DEPT.DEPTNO AND JOB='MANAGER' AND LOC='DALLAS';
         FROM EMP FULL JOIN DEPT
         ON EMP.NO = DEPT.NO;
   
-4. NATURAL JOIN
+4. NATURAL JOIN - It has 2 behaviour's 
+  i. It behaves like a 'CARTESIAN JOIN' when there is no relation between the table. 
+  ii. It behaves has 'INNER JOIN' when there is relation between the table.
+
   
 5. SELF JOIN
