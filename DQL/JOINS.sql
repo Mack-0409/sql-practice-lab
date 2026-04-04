@@ -98,4 +98,11 @@ WHERE EMP.DEPTNO = DEPT.DEPTNO AND JOB='MANAGER' AND LOC='DALLAS';
 NOTE - In natural join no need to write join condition.
        No need to identify common column.
   
-5. SELF JOIN
+5. SELF JOIN - Joining a table itself o joining same two table is known as SELF JOIN.
+  
+  # When or why do we use SELF JOIN ? 
+    When the data to be seleced present in same table but in different records then we use the concept of SELF JOIN.
+
+  SYNTAX - 
+    i. ANSI - American National Standard Institute
+      
