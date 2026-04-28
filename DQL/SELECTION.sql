@@ -11,7 +11,7 @@ WHERE <FILTER CONDITION>;
 2. WHERE
 3. SELECT
 
--- WAQTD the name of the employee earning more than 2000
+-- WAQTD THE NAME OF THE EMPLOYEE EARNING MORE THAN 2000
 SELECT *
 FROM EMP
 WHERE SAL > 2000;
@@ -27,27 +27,27 @@ WHERE SAL > 2000;
 1. SQL is not a case sensitive language.
 2. TABLE DATA is case sensitive language.
 
--- WAQTD the details of employee earning less than 5000.
+-- WAQTD THE DETAILS OF EMPLOYEE EARNING LESS THAN 5000.
 SELECT *
 FROM EMP
 WHERE SAL < 5000;
 
--- WAQTD name, job and hiredate of the employee working as salesman.
+-- WAQTD NAME, JOB AND HIREDATE OF THE EMPLOYEE WORKING AS SALESMAN.
 SELECT ENAME, JOB, HIREDATE
 FROM EMP
 SELECT JOB = 'SALESMAN';
 
--- WAQTD details of the employee hire after 1980.
+-- WAQTD DETAILS OF THE EMPLOYEE HIRE AFTER 1980.
 SELECT *
 FROM EMP
 WHERE HIREDATE > '31-DEC-80';
 
--- WAQTD details of the employee hire before 1987.
+-- WAQTD DETAILS OF THE EMPLOYEE HIRE BEFORE 1987.
 SELECT *
 FROM EMP
 WHERE HIREDATE < '01-JAN-87';
 
--- WAQTD names, annual salary of the employee if there annual salary is more than 10000.
+-- WAQTD NAMES, ANNUAL SALARY OF THE EMPLOYEE IF THERE ANNUAL SALARY IS MORE THAN 10000.
 SELECT ENAME, SAL * 12 "ANNUAL SALARY"
 FROM EMP
 WHERE SAL * 12 > 10000; 
