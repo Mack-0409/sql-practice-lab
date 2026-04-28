@@ -55,11 +55,10 @@ WHERE SAL * 12 > 10000;
 # NOTE -
 [* / DISTINCT / ALIAS] We can use only one at a time
 
--- WAQTD details of the employee along with annual salary if they are earning more than 2000.
+-- WAQTD DETAILS OF THE EMPLOYEE ALONG WITH ANNUAL SALARY IF THEY ARE EARNING MORE THAN 2000.
 SELECT EMP.*, SAL * 12 "ANNUAL SALARY"
 FROM EMP
 WHERE SAL > 2000; 
-
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -85,7 +84,7 @@ SYNTAX - SELECT * / EXPRESSION / COLUMN_NAME
          FROM EMP
          WHERE CONDITION 1 AND CONDITION 2.......................
 
--- WAQTD details of the employee earing more than 2000 and work as analysis.
+-- WAQTD DETAILS OF THE EMPLOYEE EARNING MORE THAN 2000 AND WORK AS ANALYSTS.
 SELECT *
 FROM EMP
 WHERE SAL > 2000 AND JOB = 'ANALYST';         
