@@ -6,7 +6,7 @@ Transaction - The DML operations perform on the database is called as transactio
 Thre are 3 types in TCL
 1. COMMIT
 2. ROLLBACK
-3. SAVE POINT 
+3. SAVEPOINT 
 
 
 2. ROLLBACK
